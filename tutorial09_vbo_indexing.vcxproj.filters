@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rapha\Downloads\ogl-master\tutorial09_vbo_indexing\tutorial09.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rapha\Downloads\ogl-master\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rapha\Downloads\ogl-master\common\controls.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rapha\Downloads\ogl-master\common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rapha\Downloads\ogl-master\common\objloader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rapha\Downloads\ogl-master\common\vboindexer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\rapha\Downloads\ogl-master\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rapha\Downloads\ogl-master\common\controls.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rapha\Downloads\ogl-master\common\texture.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rapha\Downloads\ogl-master\common\objloader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rapha\Downloads\ogl-master\common\vboindexer.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rapha\Downloads\ogl-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\rapha\Downloads\ogl-master\tutorial09_vbo_indexing\StandardShading.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\rapha\Downloads\ogl-master\tutorial09_vbo_indexing\StandardShading.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BDB4D3FE-CE0F-398E-B9E3-6829C74993A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{7C382689-3A3F-3554-995A-DA025136C178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{522FBB03-019C-3B99-BB4F-28B74AB0EFD6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/CheckFunctionExists.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/CheckIncludeFile.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/CheckIncludeFileCXX.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/CheckTypeSize.cmake
+C:/Users/rapha/Downloads/ogl-master/external/CMakeLists.txt

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E6EFE9B3-0CE8-3F37-BA92-58E8115BAEC4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\bin\cmake.exe -SC:/Users/rapha/Downloads/ogl-master -BC:/Users/rapha/source/repos/OpenGL --check-stamp-file C:/Users/rapha/source/repos/OpenGL/external/glfw-3.1.2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindDoxygen.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindOpenGL.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindThreads.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\bin\cmake.exe -SC:/Users/rapha/Downloads/ogl-master -BC:/Users/rapha/source/repos/OpenGL --check-stamp-file C:/Users/rapha/source/repos/OpenGL/external/glfw-3.1.2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindDoxygen.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindOpenGL.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindThreads.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\bin\cmake.exe -SC:/Users/rapha/Downloads/ogl-master -BC:/Users/rapha/source/repos/OpenGL --check-stamp-file C:/Users/rapha/source/repos/OpenGL/external/glfw-3.1.2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindDoxygen.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindOpenGL.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindThreads.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\bin\cmake.exe -SC:/Users/rapha/Downloads/ogl-master -BC:/Users/rapha/source/repos/OpenGL --check-stamp-file C:/Users/rapha/source/repos/OpenGL/external/glfw-3.1.2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindDoxygen.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindOpenGL.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\FindThreads.cmake;C:\Users\rapha\Downloads\cmake-3.13.0-rc3-win64-x64\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\ZERO_CHECK.vcxproj">
+      <Project>{BE209D57-8427-3B04-A4CC-3F874B0F37CC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{C722037E-B6D1-3625-9A78-85C9A6E2853D}</Project>
+      <Name>boing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{F070CB21-38C7-3C12-B5E9-9C2C03D87D4E}</Project>
+      <Name>clipboard</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{D250E43B-586B-3B55-AF5F-B0300C8266B9}</Project>
+      <Name>cursor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{1EFEF697-567D-3A1B-81EE-6670FD0B397B}</Project>
+      <Name>empty</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{3BEC2226-C900-3CF8-9516-C45200D1B144}</Project>
+      <Name>events</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{664D5C17-67CC-3D63-967D-B56C8BDA7A8F}</Project>
+      <Name>gamma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{96E499BC-49AB-3BF1-A7E4-653760B214CF}</Project>
+      <Name>gears</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{D922E51B-6D3F-3012-8423-04F0E66B953E}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{531CB78B-48EE-37D8-AF2D-FAA80CEB0FAE}</Project>
+      <Name>glfwinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{4C48F8E3-D513-3BF7-BD10-5B991A36D27E}</Project>
+      <Name>heightmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{07DBF3AC-43A6-3163-8E50-732E649F96BB}</Project>
+      <Name>iconify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{DDAEB18D-0360-3937-99E7-61545A137858}</Project>
+      <Name>joysticks</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{825FE08A-7A7F-37B3-8CEE-C5ADF732D46E}</Project>
+      <Name>monitors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{1F075402-0738-36E3-8124-338CD9E962FC}</Project>
+      <Name>msaa</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{4624D2F7-AE5A-3CCB-8AFA-82E8308CFD6F}</Project>
+      <Name>particles</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{DA8076CC-EA17-3E93-8444-1130A2D5C763}</Project>
+      <Name>reopen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{D325C5B1-683B-3F39-AD3D-9108F760F515}</Project>
+      <Name>sharing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{F41C341F-2F9F-3281-8B19-E6F32B83B1F6}</Project>
+      <Name>simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{08C2D831-5B7C-3AE1-8903-DF137F70CA40}</Project>
+      <Name>splitview</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{E539D8BD-EC84-35DD-8F8A-2EEFD5E347A7}</Project>
+      <Name>tearing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{72414AA9-6F11-3726-973D-BE6A9ABF062B}</Project>
+      <Name>threads</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{059E8A27-A68F-3D52-A639-E4DB60E7DAA1}</Project>
+      <Name>title</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{A353AFFE-4270-3EBF-8E39-FA48F70144D5}</Project>
+      <Name>wave</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rapha\source\repos\OpenGL\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{4A82517C-C64B-374E-8E9A-4B9EDF9C7BEA}</Project>
+      <Name>windows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

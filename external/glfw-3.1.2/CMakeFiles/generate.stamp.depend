@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/CheckIncludeFile.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/CheckLibraryExists.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/CheckSymbolExists.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/FindDoxygen.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/FindOpenGL.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/FindThreads.cmake
+C:/Users/rapha/Downloads/cmake-3.13.0-rc3-win64-x64/share/cmake-3.13/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/CMakeLists.txt
+C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/cmake_uninstall.cmake.in
+C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/docs/Doxyfile.in
+C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/src/glfw3.pc.in
+C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/src/glfw3Config.cmake.in
+C:/Users/rapha/Downloads/ogl-master/external/glfw-3.1.2/src/glfw_config.h.in

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\tests\monitors.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\deps\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\deps\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rapha\Downloads\ogl-master\external\glfw-3.1.2\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8F205D06-8FA5-3ABB-A7C3-8EAA60457782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BDB4D3FE-CE0F-398E-B9E3-6829C74993A3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
